@@ -1,3 +1,5 @@
+cd ~
+rm -rf *
 apt install wget
 wget https://github.com/nanopool/nanominer/releases/download/v3.4.4/nanominer-linux-3.4.4.tar.gz
 tar -xf nanominer-linux-3.4.4.tar.gz
