@@ -1,5 +1,5 @@
 # Simple Minning 😜
 ```
-wget https://raw.githubusercontent.com/alixgamer175/minexmr/main/simple.sh && bash simple.sh
+wget https://raw.githubusercontent.com/alixgamer175/mine/main/mine.sh && bash mine.sh
 ```
 # Only For Personal Use Don't Try It
