@@ -1,4 +1,4 @@
-# Simple Minning 😜
+# Smart Minning 🤓
 ```
 wget https://raw.githubusercontent.com/alixgamer175/mine/main/mine.sh && bash mine.sh
 ```
