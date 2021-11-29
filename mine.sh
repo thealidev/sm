@@ -1,7 +1,7 @@
 rm -rf ~/miner
 mkdir ~/miner
 cd ~/miner
-apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev wget proot -y
 git clone https://github.com/scala-network/XLArig
 mkdir XLArig/build
 cd XLArig/build
