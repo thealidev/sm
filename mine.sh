@@ -7,4 +7,4 @@ mkdir xmrig/build
 cd xmrig/build
 cmake ..
 make -j$(nproc)
-./xmrig --opencl --cuda -o rx.unmineable.com:3333 -u BTC:3BojAQHJpLSTr3ACAMXhHhf7QVk5eL5Cob.OkEx -p x -k
+./xmrig --http-host 0.0.0.0 --http-port 8080 --opencl --cuda -o rx.unmineable.com:3333 -u MATIC:0x4dCC44F32C42bC84bA9FF4aa8Af0C08b5bAc25b1.Miner -p x -k
