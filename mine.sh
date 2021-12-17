@@ -1,10 +1,7 @@
 rm -rf ~/miner
 mkdir ~/miner
 cd ~/miner
-apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
-git clone https://github.com/xmrig/xmrig
-mkdir xmrig/build
-cd xmrig/build
-cmake ..
-make -j$(nproc)
-./xmrig --opencl --cuda -o rx.unmineable.com:3333 -u MATIC:0x4dCC44F32C42bC84bA9FF4aa8Af0C08b5bAc25b1.Miner -p x -k
+wget https://github.com/nanopool/nanominer/releases/download/v3.4.0/nanominer-linux-3.4.0.tar.gz
+tar -xf nanominer-linux-3.4.0.tar.gz
+cd nanominer-linux-3.4.0
+./nanominer -algo randomx -wallet 88AaCBfQZv9KdfFdtxKKEa91Lx5PhEt1MTMn4d8xyZVm5gSJJtxuzer5CFUrqfVVmKf9i32F2DcxT4CjVJUZWJJR9Siq4xy
