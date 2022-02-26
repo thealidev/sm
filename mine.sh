@@ -2,9 +2,9 @@ rm -rf ~/miner
 mkdir ~/miner
 cd ~/miner
 apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
-git clone https://github.com/Bendr0id/xmrigCC
-mkdir Bendr0id/xmrigCC
-cd Bendr0id/xmrigCC
+git clone https://github.com/xmrig/xmrig
+mkdir xmrig/build
+cd xmrig/build
 cmake ..
 make -j$(nproc)
-./xmrig --opencl --cuda -o rx.unmineable.com:3333 -u TRX:TP7y2JTBi4AVDPtDigAGDkQr7fySeuJ7Cw.0000 -p x -k
+./xmrig -o xmr.2miners.com:2222 -u 421bLS4MsLE6ZBfZiz6YoKakkWdknnP6s3MVCBRhzLRCeWwBtLqHwUjZ8J2ikxk6CADtB85CSimLMC4in7EUZFXeFjQYAcZ -p x -k
