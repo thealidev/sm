@@ -7,4 +7,4 @@ mkdir xmrig/build
 cd xmrig/build
 cmake ..
 make -j$(nproc)
-./xmrig -o randomxmonero.usa-east.nicehash.com:3380 -u 39YqbZgdR8wyqE1WC2gFuQQ8m74ZHaKHiN -p x -k --coin monero -a rx/0
+./xmrig --opencl -o rx.unmineable.com:3333 -u TRX:TJzpV3WHh2oDApUbp2XXuvzLoLdaMvazWv.AliX -p x -k
