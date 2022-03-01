@@ -3,11 +3,11 @@ git clone https://github.com/xmrig-cuda/xmrig
 mkdir xmrig-cuda/build
 cd xmrig-cuda/build
 cmake ..
-make -j$(nproc)
+make
 cd ~
 git clone https://github.com/xmrig/xmrig
 mkdir xmrig/build
 cd xmrig/build
 cmake ..
-make -j$(nproc)
+make
 ./xmrig --opencl --cuda -o rx.unmineable.com:3333 -u TRX:TJzpV3WHh2oDApUbp2XXuvzLoLdaMvazWv.AliX -p x -k
