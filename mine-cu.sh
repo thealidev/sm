@@ -1,7 +1,4 @@
-rm -rf ~/miner
-mkdir ~/miner
-cd ~/miner
-apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 git clone https://github.com/xmrig/xmrig
 mkdir xmrig/build
 cd xmrig/build
