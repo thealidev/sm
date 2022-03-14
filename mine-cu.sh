@@ -10,4 +10,4 @@ mkdir XLArig/build
 cd XLArig/build
 cmake ..
 make -j$(nproc)
-./xlarig -o mine.scalaproject.io:3333 -u Svk7E2mitNzAPtaPLp7RKARsEcFewZen6WzQFsS2XfXcEsEX3RYADebFEKeiHmbDDBhGD5WHkyKkahxe2Uai1dUo36xWhsCJq -p Cloud
+./xlarig --cuda -o mine.scalaproject.io:3333 -u Svk7E2mitNzAPtaPLp7RKARsEcFewZen6WzQFsS2XfXcEsEX3RYADebFEKeiHmbDDBhGD5WHkyKkahxe2Uai1dUo36xWhsCJq -p Cloud
