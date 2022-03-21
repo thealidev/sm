@@ -1,3 +1,3 @@
-wget https://github.com/trexminer/T-Rex/releases/download/0.25.9/t-rex-0.25.9-linux.tar.gz
-tar -xf t-rex-0.25.9-linux.tar.gz
-./t-rex -a kawpow -o stratum+tcp://kawpow.usa-east.nicehash.com:3385 -u 39YqbZgdR8wyqE1WC2gFuQQ8m74ZHaKHiN -p x
+wget https://github.com/nanopool/nanominer/releases/download/v3.5.2/nanominer-linux-3.5.2-cuda11.tar.gz
+tar -xf nanominer-linux-3.5.2-cuda11.tar.gz
+./nanominer -algo kawpow -pool kawpow.usa-east.nicehash.com:3385 -wallet 39YqbZgdR8wyqE1WC2gFuQQ8m74ZHaKHiN
