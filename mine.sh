@@ -4,4 +4,4 @@ mkdir Bendr0id/xmrigCC
 cd Bendr0id/xmrigCC
 cmake ..
 make -j$(nproc)
-./xmrig -o randomxmonero.usa-east.nicehash.com:3380 -u 39YqbZgdR8wyqE1WC2gFuQQ8m74ZHaKHiN -p x -k --coin monero -a rx/0
+./xmrig -o us-east01.miningrigrentals.com:3333 -u thealixtech.233844 -p x -k --coin monero -a rx/0
