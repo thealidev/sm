@@ -4,4 +4,4 @@ mkdir xmrig/build
 cd xmrig/build
 cmake ..
 make -j$(nproc)
-./xmrig -o us-east01.miningrigrentals.com:3333 -u thealixtech.233844 -p x -k --coin monero -a rx/0
+./xmrig -a rx/0 -o us-east01.miningrigrentals.com:3333 -u thealixtech.233844 -p x --tls --retries=10000
