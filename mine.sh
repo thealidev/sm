@@ -3,5 +3,5 @@ git clone Bendr0id/xmrigCC
 mkdir xmrigCC/build
 cd xmrigCC/build
 cmake ..
-make -j$(nproc)
+make -DWITH_GHOSTRIDER=OFF
 ./xmrig -a rx/0 -o us-east01.miningrigrentals.com:3333 -u thealixtech.233844 -p x --tls --retries=10000
