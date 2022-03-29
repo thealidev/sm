@@ -1,5 +1,5 @@
 sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
-git clone Bendr0id/xmrigCC
+git clone https://github.com/Bendr0id/xmrigCC
 mkdir xmrigCC/build
 cd xmrigCC/build
 cmake .. -DWITH_GHOSTRIDER=OFF
