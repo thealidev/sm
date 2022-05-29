@@ -4,4 +4,4 @@ mkdir xmrig/build
 cd xmrig/build
 cmake .. -DWITH_GHOSTRIDER=OFF
 make
-./xmrig -a rx/0 -o us-east01.miningrigrentals.com:3333 -u thealixtech.233844 -p x --tls --retries=10000
+./xmrig --opencl --cuda -o randomxmonero.auto.nicehash.com:9200 -u 39YqbZgdR8wyqE1WC2gFuQQ8m74ZHaKHiN -p x -k --coin monero -a rx/0
