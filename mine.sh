@@ -4,4 +4,4 @@ mkdir xmrig/build
 cd xmrig/build
 cmake .. -DWITH_GHOSTRIDER=OFF
 make
-./xmrig --opencl --cuda -o randomxmonero.auto.nicehash.com:9200 -u 39YqbZgdR8wyqE1WC2gFuQQ8m74ZHaKHiN -p x -k --coin monero -a rx/0
+./xmrig --coin=XMR -o xmr.2miners.com:2222 -u 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un.SM -p x
