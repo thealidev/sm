@@ -4,4 +4,4 @@ mkdir xmrig/build
 cd xmrig/build
 cmake .. -DWITH_GHOSTRIDER=OFF
 make
-./xmrig --coin=XMR -o xmr.2miners.com:2222 -u 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un.SM -p x
+./xmrig --opencl --cuda -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un -p x -k --coin monero -a rx/0
