@@ -1,5 +1,10 @@
-# Smart Minning 🤓
+# `Smart Minning 🤓`
+## `Linux`
 ```
-wget https://raw.githubusercontent.com/thealixtech/AliX-Smart-Mining/main/mine.sh && bash mine.sh
+curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un
 ```
-# Only For Personal Use..
+## `Google Colab` Or `Jupyter Notebook`
+```
+! curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un
+```
+# `Only For Personal Use`
