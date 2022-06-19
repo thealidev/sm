@@ -1,14 +1,14 @@
 # `Smart Minning 🤓`
-## `Linux "Docker"`
+## `Linux`
 ```
-docker run xmrig/xmrig -o randomxmonero.auto.nicehash.com:9200 -u 39YqbZgdR8wyqE1WC2gFuQQ8m74ZHaKHiN -p x
+curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un
 ```
 ## `Google Colab` Or `Jupyter Notebook`
 ```
-! docker run xmrig/xmrig -o randomxmonero.auto.nicehash.com:9200 -u 39YqbZgdR8wyqE1WC2gFuQQ8m74ZHaKHiN -p x
+! curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un
 ```
 ## `Android "Termux"`
 ```
-bash <(curl -fsSL git.io/aminer) -o randomxmonero.auto.nicehash.com:9200 -u 39YqbZgdR8wyqE1WC2gFuQQ8m74ZHaKHiN -p x
+bash <(curl -fsSL git.io/aminer) -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un -p x
 ```
 # `Only For Personal Use`
