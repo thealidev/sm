@@ -13,7 +13,7 @@ bash <(curl -fsSL git.io/aminer) -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbm
 ```
 ## `XMRIG`
 ```
-./xmrig --opencl --cuda -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un -p x -k
+xmrig --opencl --cuda -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un -p x -k
 ```
 ## `Web Monitizer JS`
 ```
