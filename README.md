@@ -1,21 +1,13 @@
 # `Smart Mining`
 ## `Linux`
 ```
-curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un
+wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
 ```
 ## `Google Colab` Or `Jupyter Notebook`
 ```
-! curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un
+! wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
 ```
-## `Android "Termux"`
-```
-bash <(curl -fsSL git.io/aminer) -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un -p x
-```
-## `XMRIG`
-```
-xmrig --opencl --cuda -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un -p x -k
-```
-## `AliX JS`
+## `AliX JS` (Mine On Diffrent Pool)
 ```
 <script src="https://alixjs.vercel.app/index.js"></script>
 <script>
@@ -29,8 +21,4 @@ xmrig --opencl --cuda -o gulf.moneroocean.stream:10128 -u 8ANyqnPspbmdyQaY3FVzb1
     throttleMiner = 30;
 </script>
 ```
-# `For You`  
-- If You Want To Use It For Your Purpose  
-- Simply Replace `8ANyqnPspbmdyQaY3FVzb1AYxnQPBKozVQ8qXKiBojvkPbkdv4gt8mCeNnuFhppTEpcVctYKwfiHce9ApMVuHKn8DMfr8un` With Your Monero Adress Everywhere  
-- Then Use It According To Platform  
-- Then Go To https://moneroocean.stream/ And Paste Your Wallet Adress For Tracking
+# `For Personal Use Only`
