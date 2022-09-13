@@ -1,2 +1,2 @@
 FROM ubuntu:latest
-ENDPOINT mine.sh
+ENTRYPOINT mine.sh
