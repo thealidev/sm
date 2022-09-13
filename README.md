@@ -1,3 +1,4 @@
+[![Codacy Security Scan](https://github.com/thealidev/sm/actions/workflows/codacy.yml/badge.svg)](https://github.com/thealidev/sm/actions/workflows/codacy.yml)
 # `Smart Mining`
 ## `Linux`
 ```
