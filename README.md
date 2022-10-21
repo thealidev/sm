@@ -1,12 +1,8 @@
 [![Codacy Security Scan](https://github.com/thealidev/sm/actions/workflows/codacy.yml/badge.svg)](https://github.com/thealidev/sm/actions/workflows/codacy.yml)
 # `Smart Mining`
-## `Linux`
+## `Any Linux`
 ```
-wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
-```
-## `Android Termux`
-```
-wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
+curl -L https://raw.githubusercontent.com/thealidev/sm/main/mine.sh | sh
 ```
 ## `Web Miner`
 ```
