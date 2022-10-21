@@ -4,9 +4,9 @@
 ```
 wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
 ```
-## `Google Colab` Or `Jupyter Notebook`
+## `Android Termux`
 ```
-! wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
+wget https://raw.githubusercontent.com/thealidev/sm/main/mine.sh && bash mine.sh
 ```
 ## `Web Miner`
 ```
