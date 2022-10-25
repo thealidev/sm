@@ -2,11 +2,11 @@
 # `Smart Mining`
 ## `Linux CPU`
 ```
-curl -L https://raw.githubusercontent.com/thealidev/sm/main/mine-cpu.sh | sh
+wget https://raw.githubusercontent.com/thealidev/sm/main/mine-cpu.sh && bash mine-cpu.sh
 ```
 ## `Linux GPU`
 ```
-curl -L https://raw.githubusercontent.com/thealidev/sm/main/mine-gpu.sh | sh
+wget https://raw.githubusercontent.com/thealidev/sm/main/mine-gpu.sh && bash mine-gpu.sh
 ```
 ## `Web Miner`
 ```
